@@ -1,0 +1,127 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root{
+	-fx-background-image: url("pozadina.jpg");
+	-fx-background-size:stretch;
+}
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Calibri";
+    -fx-font-weight: bold;
+    -fx-background-color: #5CB85C;
+    -fx-padding: 15px 21px;
+    -fx-font-size:14px;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    
+    
+    -fx-border-insets: 9px;
+    -fx-background-insets: 9px;
+
+
+}
+.button:hover{
+    -fx-background-color: #449D44;
+}
+
+.label{
+	-fx-text-fill:white;
+}
+.menu-bar{
+	-fx-background-color: rgba(51, 51, 51, 0.3);
+	-fx-padding:10px;
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+
+}
+.menu .label {
+    -fx-font-size: 14px;
+    -fx-font-weight:bold;
+}
+.menu:hover {
+    -fx-background-color: transparent;
+}
+.menu .label:hover {
+    -fx-text-fill: #90c9ff;
+}
+.pretraga-label{
+	-fx-font-size:16px;
+	-fx-font-weight:bold;
+	-fx-padding:12px;
+	-fx-border-color:#7cc67c;
+	-fx-border-radius:7;
+	-fx-border-width: 2px;
+}
+.unesi-novi-label{
+	-fx-font-size:16px;
+	-fx-font-weight:bold;
+	-fx-padding:12px;
+}
+.text-field{
+
+	-fx-padding:6px 12px;
+	-fx-border-radius:7;
+}
+/* #zupanijeFilterTextField{
+	-fx-background-color:#9dd49d;
+}
+#zupanijeButton{
+	-fx-background-color:#DA4950;
+}*/
+.menu-item .label{
+	-fx-text-fill:black;
+}
+.menu-item:hover .label{
+	-fx-text-fill:white;
+}
+.menu-item:hover {
+    -fx-background-color:#0096C9;
+}
+.table-view .column-header {
+    -fx-background-color: #D2B48C;
+}
+.table-view .label{
+	-fx-text-fill:black;
+	-fx-font-size:15px;
+}
+.table-row-cell{
+    -fx-font-size:15px;
+    
+}
+.table-row-cell:odd{
+    -fx-background-color: #FFEEBA;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */  
+}
+.table-row-cell:selected {
+    -fx-background-color: #6cbf6c;
+}
+
+.table-view{
+	-fx-background-color: #F2DEDE;
+	-fx-padding:20px;
+	-fx-border-insets: 20px;
+    -fx-background-insets: 20px;
+}
+.label-textbox{
+	-fx-font-weight:bold;
+	-fx-font-size:14px;
+	-fx-padding:7px;
+}
+.check-box .label {
+	-fx-color:white;
+	-fx-font-weight:bold;
+}
+.text-field.error{
+	-fx-background-color:#DC3584;
+}
+.img-view{
+	-fx-background-image: url("pozadina.jpg");
+}
+.toggle-button{
+	-fx-background-color: #F0AD4E;
+    -fx-text-fill:white;
+    -fx-font-weight:bold;
+}
+.toggle-button:selected {
+    -fx-background-color: #5CB85C;
+    -fx-text-fill:white;
+    -fx-font-weight:bold;
+}
